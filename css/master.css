@@ -1,0 +1,28 @@
+/* Ensure the body and section take full width */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for home section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes text and image apart */
+    padding: 20px;
+}
+
+/* Profile image container */
+.profile-image {
+    flex-shrink: 0; /* Prevents shrinking in flexbox */
+    margin-left: 20px; /* Adds some spacing */
+}
+
+.profile-image img {
+    width: 15vw; /* 15% of viewport width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; /* Prevents it from getting too large */
+    min-width: 100px; /* Prevents it from getting too small */
+}
+
