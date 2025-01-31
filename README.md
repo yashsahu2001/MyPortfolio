@@ -62,11 +62,11 @@ Email and LinkedIn profile links.
 
 Clone the repository:
 
-git clone https://github.com/yashsahu2001/portfolio.git
+"git clone https://github.com/yashsahu2001/portfolio.git"
 
 Navigate to the project directory:
 
-cd portfolio
+"cd portfolio"
 
 Open index.html in a browser.
 
